@@ -1,0 +1,36 @@
+.widget {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin: 20px 0;
+}
+
+.widget-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.widget-content {
+  font-size: 14px;
+  color: #777;
+}
+
+.widget-remove {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #888;
+}
+
+.widget-remove:hover {
+  color: red;
+}

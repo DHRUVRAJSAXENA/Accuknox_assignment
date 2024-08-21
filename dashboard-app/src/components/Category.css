@@ -1,0 +1,36 @@
+.category-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.category-header {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.category-body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.add-widget {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 1px dashed #ccc;
+  border-radius: 10px;
+  color: #888;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.add-widget:hover {
+  border-color: #007bff;
+  color: #007bff;
+}

@@ -1,0 +1,44 @@
+.dashboard-container {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.search-bar {
+  flex-grow: 1;
+  max-width: 300px;
+  margin-left: 20px;
+}
+
+.add-widget-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.add-widget-button button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.add-widget-button button:hover {
+  background-color: #0069d9;
+}
+
+.widget-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
